@@ -89,13 +89,5 @@
 		<property name="wareService" ref="WareService" />
 		<property name="utilService" ref="UtilService" />
 	</bean>
-	
-	<bean id="TradeImportAction" class="erp.action.TradeImportAction" scope="prototype">
-		<property name="taobao" ref="taobaoSource" />
-		<property name="expressService" ref="ExpressService" />
-		<property name="sellService" ref="SellService" />
-		<property name="sellItemService" ref="SellItemService" />
-		<property name="wareService" ref="WareService" />
-	</bean>
 
 </beans>

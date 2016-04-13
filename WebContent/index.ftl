@@ -13,7 +13,6 @@
 <a href="ware_list.action">宝贝列表</a>
 <a href="ware_category_list.action">分类列表</a>
 <a href="sell_list.action">发货单列表</a>
-<a href="trade/trade_list.action">淘宝在线</a>
 </p>
 
 <table>

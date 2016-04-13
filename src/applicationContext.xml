@@ -15,13 +15,6 @@
 		<property name="password" value="${jdbc.password}" />
 	</bean>
 	
-	<bean id="taobaoSource" class="erp.bean.TaobaoBean">
-		<property name="appKey" value="${taobao.appKey}" />
-		<property name="appSecret" value="${taobao.appSecret}" />
-		<property name="restUrl" value="${taobao.restUrl}" />
-		<property name="sessionUrl" value="${taobao.sessionUrl}" />
-	</bean>
-	
 	<bean id="propertyConfigurer"
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
